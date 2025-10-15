@@ -46,7 +46,13 @@ The work spans from simple labeling strategies to advanced classifiers, ensemble
 - **Support Vector Machines (SVM)**  
   - Implemented Linear SVM, Gaussian (RBF) SVM, Polynomial SVM (degree=2).  
   - Computed accuracy, confusion matrices, TPR, TNR.  
-  - Trading strategy based on Linear SVM predictions significantly outperformed Buy-and-Hold.  
+  - Trading strategy based on Linear SVM predictions significantly outperformed Buy-and-Hold.
+    
+- **k-Nearest Neighbors (k-NN)**  
+  - Trained k-NN using Years 1–3, tested on Years 4–5.  
+  - Evaluated multiple k values, selected best k.  
+  - Computed accuracy, confusion matrix, sensitivity (TPR), and specificity (TNR).  
+  - Trading strategy with k-NN labels compared to Buy-and-Hold.  
 
 ---
 
